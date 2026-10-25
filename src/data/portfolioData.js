@@ -222,8 +222,14 @@ export const portfolioData = {
     {
       title: "AWS Certified Cloud Practitioner",
       issuer: "Amazon Web Services (AWS)",
-      status: "Exam Credential Validation (Target Feb 2026)",
+      status: "Certified",
       summary: "Validating foundational knowledge of AWS cloud architecture, IAM access management, S3 storage tiers, EC2 compute scaling, and enterprise infrastructure security."
+    },
+    {
+      title:"Introduction to Internet of Things",
+      issuer:"NPTEL",
+      status:"Certified",
+      summary:"Establishing technical competence in physical-to-cloud integrations, sensor data pipelines, micro-controller operations, low-power networks, and connected application deployment."
     },
     {
       title: "Container & Orchestration Engineering",
