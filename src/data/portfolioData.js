@@ -5,7 +5,7 @@ export const portfolioData = {
     title: "Full-Stack Engineer & Systems Builder",
     domain: "lokeshkumar.tech",
     email: "chevurilokesh07@gmail.com",
-    phone: "+91 9393969353",
+    // phone: "+91 9393969353",
     location: "Penugonda, Andhra Pradesh, India",
     status: "Available for Software Engineering Roles & Internships",
     github: "https://github.com/lokeshchevuri",
@@ -50,31 +50,6 @@ export const portfolioData = {
       techStack: ["Python", "Flask", "Scikit-Learn (KNN)", "Ollama (Llama 3.2)", "Pandas", "yt-dlp", "ES6+ JavaScript", "JSON-DB"]
     },
     {
-      id: "bus-pass-system",
-      title: "Bus Pass Management System",
-      tagline: "Digitized Transit Pass Lifecycle Platform with Role-Based Authentication",
-      featured: true,
-      category: "Full-Stack Web (MERN)",
-      github: "https://github.com/lokeshchevuri/bus-pass-management-system",
-      starsBadge: "MERN Stack",
-      summary: "A robust enterprise web application that streamlines institutional transit workflows, transforming manual paperwork into a validated digital lifecycle with distinct administrative and passenger privileges.",
-      architecture: [
-        {
-          layer: "Role-Based Access Control (RBAC)",
-          desc: "Secure JWT-driven authorization flows distinguishing between administrative operators, verification officers, and student applicants."
-        },
-        {
-          layer: "Lifecycle State Machine",
-          desc: "End-to-end digital approval pipeline from initial submission and document validation to pass generation and validity renewal."
-        },
-        {
-          layer: "MERN Architecture",
-          desc: "Built with React frontend, Express.js REST API gateway, Node.js asynchronous backend, and MongoDB document database schema for high-throughput queries."
-        }
-      ],
-      techStack: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT Authentication", "Tailwind CSS", "RESTful APIs"]
-    },
-    {
       id: "agrimitra",
       title: "Agrimitra",
       tagline: "Community Service Project — Digital Enablement for Local Farmers",
@@ -101,7 +76,7 @@ export const portfolioData = {
       tagline: "Interactive Canvas Game Deployed on AWS EC2 Cloud Infrastructure",
       featured: false,
       category: "Cloud Deployment & Game",
-      //github: "https://github.com/lokeshchevuri",
+      github: null,
       starsBadge: "AWS EC2 Hosted",
       summary: "An interactive browser game challenging players to 'Catch the Colour', engineered to master DOM mechanics, event loops, and end-to-end cloud provisioning on an Amazon EC2 Linux instance.",
       architecture: [

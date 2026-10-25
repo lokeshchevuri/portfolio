@@ -32,7 +32,7 @@ export default function Projects() {
           
           {/* Quick Filter */}
           <div className="flex items-center gap-2 font-mono text-xs">
-            {['all', 'ai', 'mern', 'cloud'].map((tab) => (
+            {['all', 'ai', 'cloud'].map((tab) => (
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
@@ -205,17 +205,26 @@ export default function Projects() {
 
                   {/* Links */}
                   <div className="pt-3 border-t border-neutral-800/80 light:border-neutral-300 flex items-center justify-between font-mono text-xs">
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="inline-flex items-center gap-1.5 text-neutral-300 hover:text-white light:text-neutral-800 light:hover:text-neutral-950 font-medium transition-colors"
-                    >
-                      <GithubIcon size={14} />
-                      <span>View Codebase</span>
-                      <ArrowUpRight size={12} />
-                    </a>
-                    <span className="text-neutral-600 light:text-neutral-400 text-[10px]">VERIFIED_BUILD</span>
+                    {project.github ? (
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center gap-1.5 text-neutral-300 hover:text-white light:text-neutral-800 light:hover:text-neutral-950 font-medium transition-colors"
+                      >
+                        <GithubIcon size={14} />
+                        <span>View Codebase</span>
+                        <ArrowUpRight size={12} />
+                      </a>
+                    ) : (
+                      <span className="inline-flex items-center gap-1.5 text-neutral-400 light:text-neutral-600 font-medium">
+                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                        <span>AWS Cloud Hosted Demo</span>
+                      </span>
+                    )}
+                    <span className="text-neutral-600 light:text-neutral-400 text-[10px]">
+                      {project.github ? "VERIFIED_BUILD" : "CLOUD_PROVISIONED"}
+                    </span>
                   </div>
                 </div>
               </div>

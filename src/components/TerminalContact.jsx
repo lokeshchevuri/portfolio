@@ -6,7 +6,7 @@ import { portfolioData } from '../data/portfolioData';
 export default function TerminalContact() {
   const { personal, projects, skills } = portfolioData;
   const [copiedEmail, setCopiedEmail] = useState(false);
-  const [copiedPhone, setCopiedPhone] = useState(false);
+  // const [copiedPhone, setCopiedPhone] = useState(false);
 
   // Terminal state
   const [inputVal, setInputVal] = useState('');
@@ -33,11 +33,13 @@ export default function TerminalContact() {
     setTimeout(() => setCopiedEmail(false), 2000);
   };
 
+  /*
   const copyPhone = () => {
     navigator.clipboard.writeText(personal.phone);
     setCopiedPhone(true);
     setTimeout(() => setCopiedPhone(false), 2000);
   };
+  */
 
   const handleCommand = (e) => {
     e.preventDefault();
@@ -73,14 +75,12 @@ Specializing in MERN stack web applications, hybrid AI engines (Dhwani Sutra), a
       case 'projects':
         newHistory.push({
           type: 'output',
-          text: `FEATURED REPOSITORIES:
+          text: `FEATURED SYSTEMS:
 1. Dhwani Sutra : Hybrid ML (KNN) + Local Llama 3.2 Ollama Music Engine (Python/Flask)
-   Repo: ${projects[0].github}
-2. Bus Pass Management : MERN Stack RBAC platform for digitized institutional transit
-   Repo: ${projects[1].github}
-3. Agrimitra : Community Service Project delivering digital agronomy tools
-   Repo: ${projects[2].github}
-4. Dark Maze : AWS EC2 hosted browser game exploring Linux daemon orchestration`
+   Repo: https://github.com/lokeshchevuri/Dhwani-sutra
+2. Agrimitra : Community Service Project delivering digital agronomy tools
+   Repo: https://github.com/lokeshchevuri/Agrimitra
+3. Dark Maze : AWS EC2 hosted browser game exploring Linux daemon orchestration (Cloud Provisioned)`
         });
         break;
 
@@ -119,7 +119,6 @@ DATABASE    : MongoDB, JSON-DB state management, Relational SQL`
           type: 'output',
           text: `DIRECT CHANNELS:
 • Email: ${personal.email}
-• Phone: ${personal.phone}
 • LinkedIn: ${personal.linkedin}
 • GitHub: ${personal.github}`
         });
@@ -198,7 +197,8 @@ DATABASE    : MongoDB, JSON-DB state management, Relational SQL`
                   </button>
                 </div>
 
-                {/* Phone */}
+                {/* Phone (Hidden as per privacy preference) */}
+                {/* 
                 <div className="p-3 rounded border border-neutral-800 light:border-neutral-300 bg-neutral-900/50 light:bg-neutral-200/50 flex items-center justify-between">
                   <div className="flex items-center gap-2.5">
                     <Phone size={15} className="text-neutral-400 shrink-0" />
@@ -212,6 +212,7 @@ DATABASE    : MongoDB, JSON-DB state management, Relational SQL`
                     {copiedPhone ? <Check size={14} className="text-emerald-400" /> : <Copy size={14} />}
                   </button>
                 </div>
+                */}
 
                 {/* Location */}
                 <div className="p-3 rounded border border-neutral-800 light:border-neutral-300 bg-neutral-900/50 light:bg-neutral-200/50 flex items-center gap-2.5">
