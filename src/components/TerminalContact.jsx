@@ -14,10 +14,17 @@ export default function TerminalContact() {
     { type: 'system', text: "Lokesh Kumar Shell v2.6.0 (x86_64-pc-linux-gnu)" },
     { type: 'system', text: "Type 'help' to view available system commands or 'projects' to inspect codebases." }
   ]);
-  const terminalEndRef = useRef(null);
+  const terminalBodyRef = useRef(null);
+  const isFirstMount = useRef(true);
 
   useEffect(() => {
-    terminalEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    if (isFirstMount.current) {
+      isFirstMount.current = false;
+      return;
+    }
+    if (terminalBodyRef.current) {
+      terminalBodyRef.current.scrollTop = terminalBodyRef.current.scrollHeight;
+    }
   }, [history]);
 
   const copyEmail = () => {
@@ -254,7 +261,7 @@ DATABASE    : MongoDB, JSON-DB state management, Relational SQL`
               </div>
 
               {/* Terminal Body */}
-              <div className="p-4 h-72 sm:h-80 overflow-y-auto space-y-2.5 text-neutral-300 select-text bg-[#090a0c]">
+              <div ref={terminalBodyRef} className="p-4 h-72 sm:h-80 overflow-y-auto space-y-2.5 text-neutral-300 select-text bg-[#090a0c]">
                 {history.map((item, idx) => (
                   <div key={idx} className="leading-relaxed">
                     {item.type === 'user' && (
@@ -273,7 +280,6 @@ DATABASE    : MongoDB, JSON-DB state management, Relational SQL`
                     )}
                   </div>
                 ))}
-                <div ref={terminalEndRef} />
               </div>
 
               {/* Terminal Input Bar */}

@@ -8,6 +8,7 @@ import CommunityLogs from './components/CommunityLogs';
 import ExperienceEducation from './components/ExperienceEducation';
 import TerminalContact from './components/TerminalContact';
 import Footer from './components/Footer';
+import Reveal from './components/Reveal';
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -34,22 +35,34 @@ export default function App() {
         <Hero />
 
         {/* Section 01: Engineering Manifesto & Linux Workflow */}
-        <Philosophy />
+        <Reveal>
+          <Philosophy />
+        </Reveal>
 
         {/* Section 02: Projects & Architecture (Dhwani Sutra, Bus Pass, Agrimitra, Dark Maze) */}
-        <Projects />
+        <Reveal>
+          <Projects />
+        </Reveal>
 
         {/* Section 03: Skills Matrix & Stack Breakdown */}
-        <Skills />
+        <Reveal>
+          <Skills />
+        </Reveal>
 
         {/* Section 04: Engineering Logs & LinkedIn Dissections */}
-        <CommunityLogs />
+        <Reveal>
+          <CommunityLogs />
+        </Reveal>
 
         {/* Section 05: Experience, Education (Sri Vasavi Eng, CGPA 8.89) & Credentials */}
-        <ExperienceEducation />
+        <Reveal>
+          <ExperienceEducation />
+        </Reveal>
 
         {/* Section 06: Terminal CLI & Direct Contact */}
-        <TerminalContact />
+        <Reveal>
+          <TerminalContact />
+        </Reveal>
       </main>
 
       {/* Footer & System Status */}
