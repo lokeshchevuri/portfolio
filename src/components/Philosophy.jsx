@@ -32,14 +32,14 @@ export default function Philosophy() {
           <div>
             <div className="flex items-center gap-2 font-mono text-xs text-neutral-500 light:text-neutral-600 uppercase tracking-widest mb-2">
               <span className="w-1.5 h-1.5 rounded-full bg-[#ea384c]"></span>
-              <span>ENGINEERING_MANIFESTO // 01</span>
+              <span>ENGINEERING_MANIFESTO </span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-neutral-100 light:text-neutral-900">
               Systems-First Thinking & Manual Craftsmanship
             </h2>
           </div>
           <div className="font-mono text-xs text-neutral-500 light:text-neutral-600 max-w-xs text-left sm:text-right">
-            <span>NO GLOWING GIMMICKS. JUST SOLID ARCHITECTURE, CLEAN TYPOGRAPHY, AND MEASURABLE CODE.</span>
+            <span>NO GLOWING GIMMICKS. JUST SOLID ARCHITECTURE, AND MEASURABLE CODE.</span>
           </div>
         </div>
 
@@ -83,7 +83,7 @@ export default function Philosophy() {
           <div className="flex items-center gap-2">
             <span className="text-[#ea384c] font-bold">$</span>
             <span className="text-neutral-300 light:text-neutral-900">uname -srm</span>
-            <span className="text-neutral-600">→ Linux 6.8.0-generic x86_64 (Ubuntu LTS Daily Driver)</span>
+            <span className="text-neutral-600">→ Linux 7.0.0.31-generic x86_64 (Ubuntu LTS Daily Driver)</span>
           </div>
           <div className="text-[11px] text-neutral-500">
             HOST: DUAL-BOOT RIG // LOCAL INFERENCE READY

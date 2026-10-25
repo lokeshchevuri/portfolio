@@ -26,7 +26,7 @@ export default function Hero() {
           <div className="flex items-center gap-3">
             <span className="flex items-center gap-1.5 text-neutral-300 light:text-neutral-800">
               <span className="w-2 h-2 rounded-full bg-[#ea384c]"></span>
-              SYS_ID: LK-7801
+              SYS_ID: LK-07
             </span>
             <span className="text-neutral-700 light:text-neutral-300">/</span>
             <span>KERNEL: LINUX_UBUNTU_X86_64</span>

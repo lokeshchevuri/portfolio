@@ -23,7 +23,7 @@ export default function Projects() {
           <div>
             <div className="flex items-center gap-2 font-mono text-xs text-neutral-500 light:text-neutral-600 uppercase tracking-widest mb-2">
               <span className="w-1.5 h-1.5 rounded-full bg-[#ea384c]"></span>
-              <span>ENGINEERED_SOFTWARE // 02</span>
+              <span>ENGINEERED_SOFTWARE </span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-neutral-100 light:text-neutral-900">
               Featured Systems & Codebases

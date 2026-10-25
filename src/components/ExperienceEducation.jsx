@@ -14,7 +14,7 @@ export default function ExperienceEducation() {
           <div>
             <div className="flex items-center gap-2 font-mono text-xs text-neutral-500 light:text-neutral-600 uppercase tracking-widest mb-2">
               <span className="w-1.5 h-1.5 rounded-full bg-[#ea384c]"></span>
-              <span>TRACK_RECORD // 05</span>
+              <span>TRACK_RECORD </span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-neutral-100 light:text-neutral-900">
               Experience, Education & Credentials
