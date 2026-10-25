@@ -29,7 +29,7 @@ Enterprise-grade, timeless portfolio website designed with a monochromatic aesth
    - Highlights the dual-boot Ubuntu daily-driver setup, POSIX parity with cloud servers, and avoiding black-box abstractions.
 4. **Curated Systems & Codebases:**
    - **Dhwani Sutra (Flagship):** Full architectural breakdown of the dual-engine core (Classical KNN spatial vectors + Local Llama 3.2 Ollama curator, IP-Persistent state, Shorts-Killer stream validation).
-   - **Bus Pass Management System:** Complete MERN stack role-based application.
+   - **Hostel Room Allocation System:** Complete MERN stack role-based application for automated campus residency management.
    - **Agrimitra:** Community Service Project (CSP) delivering agricultural tools.
    - **Dark Maze:** Interactive canvas game deployed on an AWS EC2 instance.
 5. **Stack Matrix:**

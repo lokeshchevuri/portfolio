@@ -50,6 +50,31 @@ export const portfolioData = {
       techStack: ["Python", "Flask", "Scikit-Learn (KNN)", "Ollama (Llama 3.2)", "Pandas", "yt-dlp", "ES6+ JavaScript", "JSON-DB"]
     },
     {
+      id: "hostel-allocation",
+      title: "Hostel Room Allocation System",
+      tagline: "Automated Campus Residency Lifecycle Platform with Role-Based Access Control",
+      featured: true,
+      category: "Full-Stack Web (MERN)",
+      github: "https://github.com/lokeshchevuri/hostel-room-allocation-system",
+      starsBadge: "MERN Stack",
+      summary: "A full-stack enterprise web application engineered to digitize institutional hostel operations, replacing manual room allotments with automated capacity checks, real-time availability tracking, and role-based student-warden workflows.",
+      architecture: [
+        {
+          layer: "Role-Based Access Control (RBAC)",
+          desc: "Secure JWT-driven authorization flows distinguishing between hostel administrators/wardens (approvals, room config) and resident students (applications, status checks)."
+        },
+        {
+          layer: "Dynamic Allocation & Capacity Engine",
+          desc: "Automated allotment logic validating room occupancy limits, block preferences, and conflict-free seat assignment."
+        },
+        {
+          layer: "MERN REST Architecture",
+          desc: "Built with React frontend, Express.js middleware routing, Node.js runtime, and MongoDB document schemas indexed for rapid query execution."
+        }
+      ],
+      techStack: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT Authentication", "RESTful APIs", "Tailwind CSS"]
+    },
+    {
       id: "agrimitra",
       title: "Agrimitra",
       tagline: "Community Service Project — Digital Enablement for Local Farmers",

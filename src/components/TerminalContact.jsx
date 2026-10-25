@@ -78,9 +78,11 @@ Specializing in MERN stack web applications, hybrid AI engines (Dhwani Sutra), a
           text: `FEATURED SYSTEMS:
 1. Dhwani Sutra : Hybrid ML (KNN) + Local Llama 3.2 Ollama Music Engine (Python/Flask)
    Repo: https://github.com/lokeshchevuri/Dhwani-sutra
-2. Agrimitra : Community Service Project delivering digital agronomy tools
+2. Hostel Room Allocation : MERN Stack RBAC platform for automated campus residency
+   Repo: https://github.com/lokeshchevuri/hostel-room-allocation-system
+3. Agrimitra : Community Service Project delivering digital agronomy tools
    Repo: https://github.com/lokeshchevuri/Agrimitra
-3. Dark Maze : AWS EC2 hosted browser game exploring Linux daemon orchestration (Cloud Provisioned)`
+4. Dark Maze : AWS EC2 hosted browser game exploring Linux daemon orchestration (Cloud Provisioned)`
         });
         break;
 

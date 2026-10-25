@@ -32,7 +32,7 @@ export default function Projects() {
           
           {/* Quick Filter */}
           <div className="flex items-center gap-2 font-mono text-xs">
-            {['all', 'ai', 'cloud'].map((tab) => (
+            {['all', 'ai', 'mern', 'cloud'].map((tab) => (
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
