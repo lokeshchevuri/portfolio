@@ -101,7 +101,7 @@ export const portfolioData = {
       tagline: "Interactive Canvas Game Deployed on AWS EC2 Cloud Infrastructure",
       featured: false,
       category: "Cloud Deployment & Game",
-      github: "https://github.com/lokeshchevuri",
+      //github: "https://github.com/lokeshchevuri",
       starsBadge: "AWS EC2 Hosted",
       summary: "An interactive browser game challenging players to 'Catch the Colour', engineered to master DOM mechanics, event loops, and end-to-end cloud provisioning on an Amazon EC2 Linux instance.",
       architecture: [
@@ -132,14 +132,14 @@ export const portfolioData = {
       ]
     },
     {
-      role: "Technical Contributor & Co-Organizer",
+      role: "Associate of Cloud and Security",
       organization: "Microsoft Learn Student Club (MLSC)",
       period: "Ongoing",
       type: "Technical Community",
       description: "Focused strictly on core engineering initiatives, peer workshops, and modern infrastructure exploration.",
       highlights: [
         "Explored and implemented cloud computing architectures and cybersecurity defense best practices alongside senior peers.",
-        "Co-organized campus hackathons and technical problem-solving sprints to build a collaborative, code-first culture.",
+        "Co-organized technical workshops and technical problem-solving sprints to build a collaborative, code-first culture.",
         "Mentored junior engineering students in foundational programming, debugging discipline, and Git version control."
       ]
     }

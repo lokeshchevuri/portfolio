@@ -1,0 +1,182 @@
+/* ==========================================================================
+   LIGHT MODE THEME (src/theme/lightTheme.css)
+   Enterprise-grade, high-contrast minimalist theme inspired by Vercel & Stripe.
+   Applies STRICTLY when html has the .light class (Dark mode is 100% untouched).
+   ========================================================================== */
+
+/* Page Background & Base Text */
+html.light body {
+  background-color: #fafafa !important;
+  color: #18181b !important;
+}
+
+/* Headings & Prominent Typographic Hierarchy */
+html.light h1,
+html.light h2,
+html.light h3,
+html.light h4,
+html.light .text-neutral-100,
+html.light .text-neutral-200 {
+  color: #09090b !important;
+}
+
+/* Body Copy & Explanatory Text */
+html.light p,
+html.light .text-neutral-300,
+html.light .text-neutral-400 {
+  color: #27272a !important;
+}
+
+/* Meta Labels, Subtitles, Breadcrumbs & Captions */
+html.light .text-neutral-500,
+html.light .text-neutral-600 {
+  color: #52525b !important;
+}
+
+/* Structural Section Dividers & Borders */
+html.light section,
+html.light div.border-b,
+html.light div.border-t,
+html.light div.border-l,
+html.light div.border-r,
+html.light .border-neutral-800,
+html.light .border-neutral-800\/80,
+html.light .border-neutral-800\/70,
+html.light .border-neutral-800\/60,
+html.light .border-neutral-700 {
+  border-color: #e4e4e7 !important;
+}
+
+/* Cards & Elevated Containers */
+html.light .bg-neutral-950,
+html.light .bg-neutral-950\/80,
+html.light .bg-neutral-950\/70,
+html.light .bg-neutral-950\/60,
+html.light .bg-neutral-900,
+html.light .bg-neutral-900\/80,
+html.light .bg-neutral-900\/60,
+html.light .bg-neutral-900\/50,
+html.light .bg-neutral-900\/40,
+html.light .bg-neutral-900\/30 {
+  background-color: #ffffff !important;
+  border-color: #e4e4e7 !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Badges, Chips & Code Pills */
+html.light .bg-neutral-800,
+html.light .bg-neutral-800\/80 {
+  background-color: #f4f4f5 !important;
+  color: #18181b !important;
+  border-color: #e4e4e7 !important;
+}
+
+/* Header Navbar in Light Mode */
+html.light header {
+  background-color: rgba(250, 250, 250, 0.88) !important;
+  backdrop-filter: blur(12px) !important;
+  border-bottom-color: #e4e4e7 !important;
+}
+
+html.light header nav a {
+  color: #52525b !important;
+}
+
+html.light header nav a:hover {
+  color: #09090b !important;
+}
+
+/* Brand Monogram in Light Mode */
+html.light header a .w-8.h-8 {
+  background-color: #09090b !important;
+  border-color: #27272a !important;
+  color: #ffffff !important;
+}
+
+/* Primary CTA Buttons (Inverts to crisp solid black) */
+html.light .bg-neutral-100 {
+  background-color: #09090b !important;
+  color: #ffffff !important;
+}
+
+html.light .bg-neutral-100:hover {
+  background-color: #27272a !important;
+}
+
+/* Secondary & Interactive Outline Buttons */
+html.light button.border,
+html.light a.border {
+  border-color: #d4d4d8 !important;
+}
+
+html.light button.border:hover,
+html.light a.border:hover {
+  border-color: #71717a !important;
+}
+
+/* Active Project Filter Buttons */
+html.light button.bg-neutral-100 {
+  background-color: #09090b !important;
+  color: #ffffff !important;
+}
+
+/* Dot Grid Background Texture for Light Mode */
+html.light .bg-dot-grid {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.08) 1px, transparent 1px) !important;
+}
+
+/* Biometric Avatar Card Overlay in Light Mode */
+html.light .group .relative.aspect-square {
+  background-color: #e4e4e7 !important;
+  border-color: #d4d4d8 !important;
+}
+
+html.light .group .relative.aspect-square .bg-neutral-950\/80 {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border-color: #e4e4e7 !important;
+  color: #18181b !important;
+}
+
+/* Terminal CLI: Retains sleek developer dark console on light desktop */
+html.light #terminal,
+html.light #terminal .bg-neutral-950,
+html.light #terminal .bg-\[\#090a0c\],
+html.light #terminal .bg-neutral-900,
+html.light #terminal .bg-neutral-900\/90 {
+  background-color: #0c0d11 !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.12), 0 8px 10px -6px rgba(0, 0, 0, 0.08) !important;
+}
+
+html.light #terminal pre,
+html.light #terminal input,
+html.light #terminal .text-neutral-100,
+html.light #terminal .text-neutral-300 {
+  color: #f4f4f5 !important;
+}
+
+html.light #terminal .text-neutral-400 {
+  color: #a1a1aa !important;
+}
+
+html.light #terminal .text-neutral-500 {
+  color: #71717a !important;
+}
+
+html.light #terminal .border-neutral-800 {
+  border-color: #222328 !important;
+}
+
+/* Footer in Light Mode */
+html.light footer {
+  background-color: #f4f4f5 !important;
+  border-top-color: #e4e4e7 !important;
+  color: #52525b !important;
+}
+
+html.light footer a {
+  color: #27272a !important;
+}
+
+html.light footer a:hover {
+  color: #09090b !important;
+}
